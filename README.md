@@ -208,6 +208,12 @@ Aguarde até que o status da implantação mude para Succeeded . Isso pode levar
 
 4. Clique no botão Testar   
 
+    Saída esperada: 
+    
+   ```
+   [ 340.48029627882164 ]
+   ```
+
 
 # Deletando os serviços após o uso
 
