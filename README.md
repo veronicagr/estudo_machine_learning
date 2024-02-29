@@ -1,13 +1,13 @@
-# Explore o Machine Learning Automatizado no Azure
+# Explore o machine learning automatizado no Azure
 
-Este é um tutorial de estudo solicitado pela Digital Innovation One - [DIO](https://www.dio.me/) para praticar os conceitos aprendidos no curso
+Este é um tutorial de estudo solicitado pela Digital Innovation One - [DIO](https://www.dio.me/) para praticar os conceitos aprendidos no curso de 
 Introdução ao Aprendizado de Máquina' [Microsoft Azure AI Fundamentals](https://web.dio.me/track/microsoft-azure-ai-fundamentals).
 
-Neste exercício, você usará o recurso de aprendizado de máquina automatizado no Azure Machine Learning para treinar e avaliar um modelo de aprendizado de máquina. Em seguida, você implantará e testará o modelo treinado.
+Neste exercício, usaremos o recurso de aprendizado de máquina automatizado no Azure Machine Learning para treinar e avaliar um modelo de aprendizado de máquina. Em seguida, você implantará e testará o modelo treinado.
 
 ## Pré-requisitos
 
-* Ter uma conta do Microsoft Azure.
+* Ter uma conta no Microsoft Azure.
 
 #### Se você não possui conta no Microsoft Azure siga os passos abaixo:
 
@@ -23,26 +23,20 @@ Neste exercício, você usará o recurso de aprendizado de máquina automatizado
 
 2. Na aba Azure Services procure por 'Criar recurso'.
 
-![Alt text](image.png)
-
 3. pesquise Machine Learning
-
-![Alt text](image-1.png)
 
 4. crie um novo recurso do Azure Machine Learning
 
-![Alt text](image-2.png)
-
 5. Realizar a seguintes configurações conforme abaixo:
 
-* Assinatura : sua assinatura do Azure .
-* Grupo de recursos : Crie ou selecione um grupo de recursos .
-* Nome : Insira um nome exclusivo para seu espaço de trabalho .
-* Região : Selecione a região geográfica mais próxima .
-* Conta de armazenamento : observe a nova conta de armazenamento padrão que será criada para seu espaço de trabalho .
-* Cofre de chaves : Observe o novo cofre de chaves padrão que será criado para seu espaço de trabalho .
-* Insights de aplicativo : observe o novo recurso padrão de insights de aplicativo que será criado para seu espaço de trabalho .
-* Registro de contêiner : Nenhum ( um será criado automaticamente na primeira vez que você implantar um modelo em um contêiner ).
+        Assinatura: sua assinatura do Azure
+        Grupo de recursos: Crie ou selecione um grupo de recursos
+        Nome: Insira um nome exclusivo para seu espaço de trabalho
+        Região: Selecione a região geográfica mais próxima
+        Conta de armazenamento: Criado automaticamente
+        Cofre de chaves: Criado automaticamente
+        Insights de aplicativo: Criado automaticamente
+        Registro de contêiner: Nenhum 
 
 6. Selecione Revisar + criar e selecione Criar . Aguarde a criação do seu espaço de trabalho (pode demorar alguns minutos) e, em seguida, vá para o recurso implantado.
 
@@ -69,7 +63,7 @@ Neste exercício, você usará o recurso de aprendizado de máquina automatizado
 * Selecione o tipo de tarefa : Regressão
 * Selecionar conjunto de dados : crie um novo conjunto de dados com as seguintes configurações:
 
-![Alt text](image-3.png)
+![Alt text](assets/image-3.png)
 
 ### Tipo de dados :
 
@@ -77,7 +71,7 @@ Neste exercício, você usará o recurso de aprendizado de máquina automatizado
     Descrição: dados históricos de aluguel de bicicletas
     Tipo: Tabular
 
- ![Alt text](image-4.png)   
+ ![Alt text](assets/image-4.png)   
 
 ### Fonte de dados:
 
@@ -85,8 +79,8 @@ Neste exercício, você usará o recurso de aprendizado de máquina automatizado
     URL da Web :https://aka.ms/bike-rentals
     Ignorar validação de dados : não selecionar
 
-![Alt text](image-5.png)    
-![Alt text](image-6.png)
+![Alt text](assets/image-5.png)    
+![Alt text](assets/image-6.png)
 
 ### Configurações :
 
@@ -97,22 +91,22 @@ Neste exercício, você usará o recurso de aprendizado de máquina automatizado
     Pular linhas: Nenhum
     O conjunto de dados contém dados multilinhas: não selecione
 
- ![Alt text](image-7.png)   
+ ![Alt text](assets/image-7.png)   
 
 ### Esquema :
 
     Incluir todas as colunas exceto Caminho
     Revise os tipos detectados automaticamente
 
-![Alt text](image-8.png)    
+![Alt text](assets/image-8.png)    
 
 11. Selecione Criar
 
-![Alt text](image-9.png)
+![Alt text](assets/image-9.png)
 
 12. Após a criação do conjunto de dados, selecione o conjunto de dados de aluguel de bicicletas para continuar a enviar o trabalho de ML automatizado.
 
-![Alt text](image-10.png)
+![Alt text](assets/image-10.png)
 
 
 ### Configurações de tarefa :
@@ -121,7 +115,7 @@ Neste exercício, você usará o recurso de aprendizado de máquina automatizado
     Conjunto de dados : aluguel de bicicletas
     Coluna de destino : Aluguéis (inteiro)
 
-![Alt text](image-14.png)
+![Alt text](assets/image-14.png)
 
 ### Configurações adicionais :
 
@@ -130,7 +124,7 @@ Neste exercício, você usará o recurso de aprendizado de máquina automatizado
     Usar todos os modelos suportados : Desmarcado . Você restringirá o trabalho para tentar apenas alguns algoritmos específicos.
     Modelos permitidos : Selecione apenas RandomForest e LightGBM — normalmente você gostaria de tentar o máximo possível, mas cada modelo adicionado aumenta o tempo necessário para executar o trabalho.
 
-![Alt text](image-13.png)    
+![Alt text](assets/image-13.png)    
 
 
 
@@ -144,7 +138,7 @@ Neste exercício, você usará o recurso de aprendizado de máquina automatizado
     Tempo limite de iteração : 15
     Habilitar rescisão antecipada : selecionado
 
-![Alt text](image-12.png)
+![Alt text](assets/image-12.png)
 
 
 ### Validação e teste :
@@ -153,7 +147,7 @@ Neste exercício, você usará o recurso de aprendizado de máquina automatizado
     Porcentagem de dados de validação : 10
     Dados de teste : Nenhum
 
-![Alt text](image-11.png)
+![Alt text](assets/image-11.png)
 
 
 ### Computação :
@@ -164,7 +158,7 @@ Neste exercício, você usará o recurso de aprendizado de máquina automatizado
     Tamanho da máquina virtual : Standard_DS3_V2*
     Número de instâncias : 1
 
-![Alt text](image-15.png)
+![Alt text](assets/image-15.png)
 
 13. Envie o trabalho de treinamento. Ele inicia automaticamente.
 
