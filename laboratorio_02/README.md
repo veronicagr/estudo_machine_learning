@@ -57,6 +57,7 @@ Neste exercício, usaremos o recurso de reconhecimento Facial e transformação 
 ![Alt text](/laboratorio_02/assets/image-6.png)
 
 10. Voltar para pagina inicial e ecolher a opção Detect faces in an image.
+
 ![Alt text](/laboratorio_02/assets/image-7.png)
 
 11. Aceitar os termos e já pode começar a realizar os testes
@@ -80,9 +81,13 @@ Agora trabalharemos com extração de textos em imagens
 
 O serviço web que você criou está hospedado em uma instância de contêiner do Azure . Se não pretender usa-lo, deverá eliminar para evitar utilização desnecessária do Azure.
 
-No estúdio Azure Machine Learning , na guia Endpoints , selecione o ponto de extremidade de previsão de aluguel . Em seguida, selecione Excluir e confirme que deseja excluir o endpoint.
+Na pagina inicial do azure selecionar todos os recursos.
 
-Excluir as instâncias não utilizadas garante que sua assinatura não será cobrada por recursos..
+![Alt text](/laboratorio_02/assets/image-13.png)
+
+Excluir as instâncias não utilizadas, pois isso garante que sua assinatura não será cobrada por recursos..
+
+![Alt text](/laboratorio_02/assets/image-12.png)
 
 Para excluir seu espaço de trabalho:
 
