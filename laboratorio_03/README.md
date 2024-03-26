@@ -68,12 +68,10 @@ Recurso em implantação
 ![alt text](assets/image-9.png)
 
 
-Obs: Se aparecer o error: BadRequestInvalidResource - Visio studio, aguarde alguns minutes e tente novamente.
-
 ### Analyze sentiment and opinions
 Agora trabalharemos com analise de textos e opniẽs
 
-1. Colocar um texto de exemplo, pode usar o exemplo da [documentação](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html).
+12. Colocar um texto de exemplo, pode usar o exemplo da [documentação](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html).
 
         "Tired hotel with poor service
         The Royal Hotel, London, United Kingdom
@@ -82,7 +80,7 @@ Agora trabalharemos com analise de textos e opniẽs
         
 ![alt text](assets/image10.png)
 
-2. clicar em run e será geradao a analise
+13. clicar em run e será geradao a analise
 ![Alt text](/laboratorio_03/assets/image-11.png)  
 
 
